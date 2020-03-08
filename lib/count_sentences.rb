@@ -28,9 +28,9 @@ class String
 
   def count_sentences
     #need to convert str to array, do that by creating creating variable as placeholder
-    new_array = self.split(/[.?!]+/).length
+    new_array = self.split(/[.?!]+/)
     return new_array
-    binding.pry 
+    binding.pry
   end
 
 end
