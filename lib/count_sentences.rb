@@ -30,7 +30,7 @@ class String
     #need to convert str to array, do that by creating creating variable as placeholder
     new_array = self.split(/[.?!]+/).length
     return new_array
-    binding.pry
+    #binding.pry
   end
 
 end
